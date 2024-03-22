@@ -2,10 +2,12 @@ import React from 'react'
 import Header from './Header'
 import Search from '../../components/Search'
 import Category from './Category'
-import Description from './Description'
 import PropertyListing from './PropertyListing'
-import CallToAction from './CallToAction'
 import PropertyAgents from './PropertyAgents'
+import Testimonials from './Testimonials'
+import SwipeToSlide from './SwipeToSlide'
+import Description from '../../components/Description'
+import CallToAction from '../../components/CallToAction.jsx'
 
 const Home = () => {
     return ( 
@@ -17,6 +19,8 @@ const Home = () => {
             <PropertyListing/>
             <CallToAction/>
             <PropertyAgents/>
+            <Testimonials/>
+            <SwipeToSlide/>
         </>
     )
 }

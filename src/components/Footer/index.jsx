@@ -1,4 +1,10 @@
 import React from 'react'
+import property1 from '../../assets/img/property-1.jpg'
+import property2 from '../../assets/img/property-2.jpg'
+import property3 from '../../assets/img/property-3.jpg'
+import property4 from '../../assets/img/property-4.jpg'
+import property5 from '../../assets/img/property-5.jpg'
+import property6 from '../../assets/img/property-6.jpg'
 
 const Footer = () => {
   return (
@@ -29,22 +35,22 @@ const Footer = () => {
                         <h5 className="text-white mb-4">Photo Gallery</h5>
                         <div className="row g-2 pt-2">
                             <div className="col-4">
-                                <img className="img-fluid rounded bg-light p-1" src="img/property-1.jpg" alt=""/>
+                                <img className="img-fluid rounded bg-light p-1" src={property1} alt=""/>
                             </div>
                             <div className="col-4">
-                                <img className="img-fluid rounded bg-light p-1" src="img/property-2.jpg" alt=""/>
+                                <img className="img-fluid rounded bg-light p-1" src={property2} alt=""/>
                             </div>
                             <div className="col-4">
-                                <img className="img-fluid rounded bg-light p-1" src="img/property-3.jpg" alt=""/>
+                                <img className="img-fluid rounded bg-light p-1" src={property3} alt=""/>
                             </div>
                             <div className="col-4">
-                                <img className="img-fluid rounded bg-light p-1" src="img/property-4.jpg" alt=""/>
+                                <img className="img-fluid rounded bg-light p-1" src={property4} alt=""/>
                             </div>
                             <div className="col-4">
-                                <img className="img-fluid rounded bg-light p-1" src="img/property-5.jpg" alt=""/>
+                                <img className="img-fluid rounded bg-light p-1" src={property5} alt=""/>
                             </div>
                             <div className="col-4">
-                                <img className="img-fluid rounded bg-light p-1" src="img/property-6.jpg" alt=""/>
+                                <img className="img-fluid rounded bg-light p-1" src={property6} alt=""/>
                             </div>
                         </div>
                     </div>
