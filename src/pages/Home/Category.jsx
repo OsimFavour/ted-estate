@@ -7,6 +7,7 @@ import iconBuilding from '../../assets/img/icon-building.png'
 import iconNeighborhood from '../../assets/img/icon-neighborhood.png'
 import iconCondominium from '../../assets/img/icon-condominium.png'
 import iconLuxury from '../../assets/img/icon-luxury.png'
+import { Link } from 'react-router-dom'
 
 const Category = () => {
     return (
@@ -18,7 +19,7 @@ const Category = () => {
                 </div>
                 <div className="row g-4">
                     <div className="col-lg-3 col-sm-6 wow fadeInUp" data-wow-delay="0.1s">
-                        <a className="cat-item d-block bg-light text-center rounded p-3" href="">
+                        <Link className="cat-item d-block bg-light text-center rounded p-3" href="">
                             <div className="rounded p-4">
                                 <div className="icon mb-3">
                                     <img className="img-fluid" src={iconApartment} alt="Icon"/>
@@ -26,10 +27,10 @@ const Category = () => {
                                 <h6>Apartment</h6>
                                 <span>123 Properties</span>
                             </div>
-                        </a>
+                        </Link>
                     </div>
                     <div className="col-lg-3 col-sm-6 wow fadeInUp" data-wow-delay="0.3s">
-                        <a className="cat-item d-block bg-light text-center rounded p-3" href="">
+                        <Link className="cat-item d-block bg-light text-center rounded p-3" href="">
                             <div className="rounded p-4">
                                 <div className="icon mb-3">
                                     <img className="img-fluid" src={iconVilla} alt="Icon"/>
@@ -37,10 +38,10 @@ const Category = () => {
                                 <h6>Villa</h6>
                                 <span>123 Properties</span>
                             </div>
-                        </a>
+                        </Link>
                     </div>
                     <div className="col-lg-3 col-sm-6 wow fadeInUp" data-wow-delay="0.5s">
-                        <a className="cat-item d-block bg-light text-center rounded p-3" href="">
+                        <Link className="cat-item d-block bg-light text-center rounded p-3" href="">
                             <div className="rounded p-4">
                                 <div className="icon mb-3">
                                     <img className="img-fluid" src={iconHouse} alt="Icon"/>
@@ -48,10 +49,10 @@ const Category = () => {
                                 <h6>Home</h6>
                                 <span>123 Properties</span>
                             </div>
-                        </a>
+                        </Link>
                     </div>
                     <div className="col-lg-3 col-sm-6 wow fadeInUp" data-wow-delay="0.7s">
-                        <a className="cat-item d-block bg-light text-center rounded p-3" href="">
+                        <Link className="cat-item d-block bg-light text-center rounded p-3" href="">
                             <div className="rounded p-4">
                                 <div className="icon mb-3">
                                     <img className="img-fluid" src={iconHousing} alt="Icon"/>
@@ -59,10 +60,10 @@ const Category = () => {
                                 <h6>Office</h6>
                                 <span>123 Properties</span>
                             </div>
-                        </a>
+                        </Link>
                     </div>
                     <div className="col-lg-3 col-sm-6 wow fadeInUp" data-wow-delay="0.1s">
-                        <a className="cat-item d-block bg-light text-center rounded p-3" href="">
+                        <Link className="cat-item d-block bg-light text-center rounded p-3" href="">
                             <div className="rounded p-4">
                                 <div className="icon mb-3">
                                     <img className="img-fluid" src={iconBuilding} alt="Icon"/>
@@ -70,10 +71,10 @@ const Category = () => {
                                 <h6>Building</h6>
                                 <span>123 Properties</span>
                             </div>
-                        </a>
+                        </Link>
                     </div>
                     <div className="col-lg-3 col-sm-6 wow fadeInUp" data-wow-delay="0.3s">
-                        <a className="cat-item d-block bg-light text-center rounded p-3" href="">
+                        <Link className="cat-item d-block bg-light text-center rounded p-3" href="">
                             <div className="rounded p-4">
                                 <div className="icon mb-3">
                                     <img className="img-fluid" src={iconNeighborhood} alt="Icon"/>
@@ -81,10 +82,10 @@ const Category = () => {
                                 <h6>Townhouse</h6>
                                 <span>123 Properties</span>
                             </div>
-                        </a>
+                        </Link>
                     </div>
                     <div className="col-lg-3 col-sm-6 wow fadeInUp" data-wow-delay="0.5s">
-                        <a className="cat-item d-block bg-light text-center rounded p-3" href="">
+                        <Link className="cat-item d-block bg-light text-center rounded p-3" href="">
                             <div className="rounded p-4">
                                 <div className="icon mb-3">
                                     <img className="img-fluid" src={iconCondominium} alt="Icon"/>
@@ -92,10 +93,10 @@ const Category = () => {
                                 <h6>Shop</h6>
                                 <span>123 Properties</span>
                             </div>
-                        </a>
+                        </Link>
                     </div>
                     <div className="col-lg-3 col-sm-6 wow fadeInUp" data-wow-delay="0.7s">
-                        <a className="cat-item d-block bg-light text-center rounded p-3" href="">
+                        <Link className="cat-item d-block bg-light text-center rounded p-3" href="">
                             <div className="rounded p-4">
                                 <div className="icon mb-3">
                                     <img className="img-fluid" src={iconLuxury} alt="Icon"/>
@@ -103,7 +104,7 @@ const Category = () => {
                                 <h6>Garage</h6>
                                 <span>123 Properties</span>
                             </div>
-                        </a>
+                        </Link>
                     </div>
                 </div>
             </div>

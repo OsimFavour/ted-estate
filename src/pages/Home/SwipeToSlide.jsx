@@ -19,7 +19,7 @@ function SwipeToSlide() {
     // className: "center",
     infinite: true,
     // centerPadding: "60px",
-    slidesToShow: 2,
+    slidesToShow: 3,
     swipeToSlide: true,
     slidesToScroll: 1,
     afterChange: function(index) {
@@ -29,6 +29,14 @@ function SwipeToSlide() {
     },
     prevArrow: <SlickArrowLeft/>,
     nextArrow: <SlickArrowRight/>,
+    responsive: [
+      {
+        breakpoint: 768, // Breakpoint for mobile devices
+        settings: {
+          slidesToShow: 2, // Change to 2 items on mobile
+        },
+      },
+    ],
   };
   return (
     <>

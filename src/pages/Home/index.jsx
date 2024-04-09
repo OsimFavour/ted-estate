@@ -8,6 +8,8 @@ import Testimonials from './Testimonials'
 import SwipeToSlide from './SwipeToSlide'
 import Description from '../../components/Description'
 import CallToAction from '../../components/CallToAction.jsx'
+import TestimonialTests from './TestimonialTests.jsx'
+import TestimonialTester from './TestimonialTester.jsx'
 
 const Home = () => {
     return ( 
@@ -20,7 +22,9 @@ const Home = () => {
             <CallToAction/>
             <PropertyAgents/>
             <Testimonials/>
-            <SwipeToSlide/>
+            {/* <TestimonialTester/> */}
+            {/* <SwipeToSlide/> */}
+            {/* <TestimonialTests/> */}
         </>
     )
 }
